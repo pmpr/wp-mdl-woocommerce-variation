@@ -1,21 +1,20 @@
 {
-  "name": "pmpr-pkg/wp-pkg-woocommerce-gateway",
+  "name": "pmpr-pkg/wp-pkg-woocommerce-variation",
   "type": "project",
   "license": "proprietary",
-  "description": "Woocommerce Gateway",
+  "description": "Woocommerce Variation",
   "keywords": [
+    "package",
     "wordpress",
-    "woocommerce",
-    "api manager",
-    "package"
+    "variation",
+    "woocommerce"
   ],
   "require": {
-    "php": ">=7.4",
-    "econea/nusoap": "v0.9.11"
+    "php": ">=7.4"
   },
   "autoload": {
     "psr-4": {
-      "Pmpr\\Package\\WoocommerceGateway\\": "src/Pmpr/Package/WoocommerceGateway"
+      "Pmpr\\Package\\WoocommerceVariation\\": "src/Pmpr/Package/WoocommerceVariation"
     },
     "files": [
       "index.php"
