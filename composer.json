@@ -1,0 +1,26 @@
+{
+  "name": "pmpr-pkg/wp-pkg-woocommerce-gateway",
+  "type": "project",
+  "license": "proprietary",
+  "description": "Woocommerce Gateway",
+  "keywords": [
+    "wordpress",
+    "woocommerce",
+    "api manager",
+    "package"
+  ],
+  "require": {
+    "php": ">=7.4",
+    "econea/nusoap": "v0.9.11"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pmpr\\Package\\WoocommerceGateway\\": "src/Pmpr/Package/WoocommerceGateway"
+    },
+    "files": [
+      "index.php"
+    ]
+  },
+  "minimum-stability": "dev"
+}
+
