@@ -1,2 +1,2 @@
-# wp-mod-woocommerce-variation
+# wp-mdl-woocommerce-variation
 
