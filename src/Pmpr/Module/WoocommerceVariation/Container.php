@@ -4,4 +4,4 @@
     |             6240179806a66             |
     |_______________________________________|
 */
- use Pmpr\Module\WoocommerceVariation\WoocommerceVariation; WoocommerceVariation::symcgieuakksimmu();
+ namespace Pmpr\Module\WoocommerceVariation; use Pmpr\Common\Foundation\Container\Container as BaseClass; class Container extends BaseClass { }

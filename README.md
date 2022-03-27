@@ -1,2 +1,2 @@
-# wp-pkg-woocommerce-variation
+# wp-mod-woocommerce-variation
 
